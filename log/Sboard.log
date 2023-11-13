@@ -1,0 +1,1302 @@
+2023-10-13T09:06:49.489+09:00  INFO 8120 --- [main] kr.co.sboard.SboardApplication           : Starting SboardApplication using Java 17.0.8 with PID 8120 (C:\Users\Java\Desktop\Workspace\Spring\Sboard\build\classes\java\main started by Java in C:\Users\Java\Desktop\Workspace\Spring\Sboard)
+2023-10-13T09:06:49.493+09:00  INFO 8120 --- [main] kr.co.sboard.SboardApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-10-13T09:06:50.016+09:00  INFO 8120 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-13T09:06:50.060+09:00  INFO 8120 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 4 JPA repository interfaces.
+2023-10-13T09:06:50.117+09:00  WARN 8120 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[kr.co.sboard]' package. Please check your configuration.
+2023-10-13T09:06:50.364+09:00  INFO 8120 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-13T09:06:50.370+09:00  INFO 8120 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-13T09:06:50.370+09:00  INFO 8120 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-13T09:06:50.421+09:00  INFO 8120 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-13T09:06:50.421+09:00  INFO 8120 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 796 ms
+2023-10-13T09:06:50.507+09:00  INFO 8120 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-13T09:06:50.545+09:00  INFO 8120 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-13T09:06:50.547+09:00  INFO 8120 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-13T09:06:50.651+09:00  INFO 8120 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-13T09:06:50.732+09:00  INFO 8120 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-13T09:06:50.742+09:00  INFO 8120 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-13T09:06:50.929+09:00  INFO 8120 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d2cb2d0
+2023-10-13T09:06:50.930+09:00  INFO 8120 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-13T09:06:50.958+09:00  WARN 8120 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL57Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-13T09:06:51.070+09:00  INFO 8120 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-13T09:06:51.480+09:00  INFO 8120 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-13T09:06:51.481+09:00  INFO 8120 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-13T09:06:51.718+09:00  WARN 8120 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-13T09:06:51.786+09:00  INFO 8120 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-10-13T09:06:51.861+09:00  INFO 8120 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7d5ddfac, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@72ea5674, org.springframework.security.web.context.SecurityContextHolderFilter@4bbabec8, org.springframework.security.web.header.HeaderWriterFilter@326d39fd, org.springframework.security.web.authentication.logout.LogoutFilter@2943e61c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6bab373c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2b27d5d3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@173602c0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7ecd6861, org.springframework.security.web.access.ExceptionTranslationFilter@6020cd42, org.springframework.security.web.access.intercept.AuthorizationFilter@7d0e46dd]
+2023-10-13T09:06:52.037+09:00  INFO 8120 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-13T09:06:52.041+09:00  INFO 8120 --- [main] kr.co.sboard.SboardApplication           : Started SboardApplication in 2.804 seconds (process running for 3.193)
+2023-10-13T09:07:06.411+09:00  INFO 8120 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-13T09:07:06.411+09:00  INFO 8120 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-13T09:07:06.412+09:00  INFO 8120 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-10-13T09:13:12.563+09:00  WARN 8120 --- [http-nio-8080-exec-9] n.n.u.t.e.ExpressionProcessor            : Fragment expression "/index.html" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
+2023-10-13T10:16:00.894+09:00  INFO 8120 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-13T10:16:00.896+09:00  INFO 8120 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-13T10:16:00.898+09:00  INFO 8120 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-13T10:16:05.813+09:00  INFO 14256 --- [main] kr.co.sboard.SboardApplication           : Starting SboardApplication using Java 17.0.8 with PID 14256 (C:\Users\Java\Desktop\Workspace\Spring\Sboard\build\classes\java\main started by Java in C:\Users\Java\Desktop\Workspace\Spring\Sboard)
+2023-10-13T10:16:05.814+09:00  INFO 14256 --- [main] kr.co.sboard.SboardApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-10-13T10:16:06.201+09:00  INFO 14256 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-13T10:16:06.232+09:00  INFO 14256 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 4 JPA repository interfaces.
+2023-10-13T10:16:06.287+09:00  WARN 14256 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[kr.co.sboard]' package. Please check your configuration.
+2023-10-13T10:16:06.497+09:00  INFO 14256 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-13T10:16:06.502+09:00  INFO 14256 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-13T10:16:06.502+09:00  INFO 14256 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-13T10:16:06.543+09:00  INFO 14256 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-13T10:16:06.543+09:00  INFO 14256 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 621 ms
+2023-10-13T10:16:06.617+09:00  INFO 14256 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-13T10:16:06.643+09:00  INFO 14256 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-13T10:16:06.644+09:00  INFO 14256 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-13T10:16:06.716+09:00  INFO 14256 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-13T10:16:06.786+09:00  INFO 14256 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-13T10:16:06.794+09:00  INFO 14256 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-13T10:16:06.934+09:00  INFO 14256 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1b98355f
+2023-10-13T10:16:06.935+09:00  INFO 14256 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-13T10:16:06.958+09:00  WARN 14256 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL57Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-13T10:16:07.060+09:00  INFO 14256 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-13T10:16:07.447+09:00  INFO 14256 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-13T10:16:07.449+09:00  INFO 14256 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-13T10:16:07.694+09:00  WARN 14256 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-13T10:16:07.750+09:00  INFO 14256 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-10-13T10:16:07.823+09:00  INFO 14256 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@65a7bc80, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5b132063, org.springframework.security.web.context.SecurityContextHolderFilter@73f6ffb1, org.springframework.security.web.header.HeaderWriterFilter@34c050a1, org.springframework.security.web.authentication.logout.LogoutFilter@5bb7fc38, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@27ea7c8f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@41fe0d98, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@64c1a76e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4b98c80c, org.springframework.security.web.access.ExceptionTranslationFilter@3dfe2797, org.springframework.security.web.access.intercept.AuthorizationFilter@599cf2cd]
+2023-10-13T10:16:07.981+09:00  INFO 14256 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-13T10:16:07.985+09:00  INFO 14256 --- [main] kr.co.sboard.SboardApplication           : Started SboardApplication in 2.381 seconds (process running for 2.624)
+2023-10-13T10:16:08.416+09:00  INFO 14256 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-13T10:16:08.416+09:00  INFO 14256 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-13T10:16:08.417+09:00  INFO 14256 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-10-13T10:16:12.206+09:00  INFO 14256 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 1
+2023-10-13T10:16:12.206+09:00  INFO 14256 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T10:16:12.206+09:00  INFO 14256 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO total : 11
+2023-10-13T10:16:12.206+09:00  INFO 14256 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO start : 1
+2023-10-13T10:16:12.206+09:00  INFO 14256 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO end : 2
+2023-10-13T10:16:12.206+09:00  INFO 14256 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO prev : false
+2023-10-13T10:16:12.206+09:00  INFO 14256 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO next : false
+2023-10-13T10:16:12.350+09:00  WARN 14256 --- [http-nio-8080-exec-7] n.n.u.t.e.ExpressionProcessor            : Fragment expression "/index.html" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
+2023-10-13T10:16:12.476+09:00 ERROR 14256 --- [http-nio-8080-exec-7] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-7] Exception processing template "/article/list": An error happened during template parsing (template: "URL [file:src/main/resources/templates//article/list.html]")
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "URL [file:src/main/resources/templates//article/list.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1415) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1159) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.13.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.13.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:227) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:221) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:75) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:642) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:408) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:340) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:277) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequestDispatcher.forward(HeaderWriterFilter.java:170) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1415) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1159) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.13.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.13.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:227) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:221) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: org.attoparser.ParseException: Exception evaluating SpringEL expression: "pageArticle.content" (template: "/article/list" - line 20, col 29)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	... 150 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "pageArticle.content" (template: "/article/list" - line 20, col 29)
+	at org.thymeleaf.spring6.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:292) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:125) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.processor.StandardEachTagProcessor.doProcess(StandardEachTagProcessor.java:73) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.Model.process(Model.java:282) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1587) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.Model.process(Model.java:282) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1587) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.Model.process(Model.java:282) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.Model.process(Model.java:290) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.GatheringModelProcessable.process(GatheringModelProcessable.java:78) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleCloseElementEnd(TemplateHandlerAdapterMarkupHandler.java:388) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:322) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleCloseElementEnd(OutputExpressionInlinePreProcessorHandler.java:220) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:164) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.attoparser.HtmlElement.handleCloseElementEnd(HtmlElement.java:169) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.HtmlMarkupHandler.handleCloseElementEnd(HtmlMarkupHandler.java:412) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupEventProcessorHandler.handleCloseElementEnd(MarkupEventProcessorHandler.java:473) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.ParsingElementMarkupUtil.parseCloseElement(ParsingElementMarkupUtil.java:201) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:725) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	... 152 common frames omitted
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'content' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:218) ~[spring-expression-6.0.12.jar:6.0.12]
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:105) ~[spring-expression-6.0.12.jar:6.0.12]
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:410) ~[spring-expression-6.0.12.jar:6.0.12]
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:96) ~[spring-expression-6.0.12.jar:6.0.12]
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:114) ~[spring-expression-6.0.12.jar:6.0.12]
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:338) ~[spring-expression-6.0.12.jar:6.0.12]
+	at org.thymeleaf.spring6.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:265) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	... 183 common frames omitted
+
+2023-10-13T10:16:12.481+09:00 ERROR 14256 --- [http-nio-8080-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] threw exception
+
+org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'content' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:218) ~[spring-expression-6.0.12.jar:6.0.12]
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:105) ~[spring-expression-6.0.12.jar:6.0.12]
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:410) ~[spring-expression-6.0.12.jar:6.0.12]
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:96) ~[spring-expression-6.0.12.jar:6.0.12]
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:114) ~[spring-expression-6.0.12.jar:6.0.12]
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:338) ~[spring-expression-6.0.12.jar:6.0.12]
+	at org.thymeleaf.spring6.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:265) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:125) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.processor.StandardEachTagProcessor.doProcess(StandardEachTagProcessor.java:73) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.Model.process(Model.java:282) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1587) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.Model.process(Model.java:282) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1587) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.Model.process(Model.java:282) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.Model.process(Model.java:290) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.GatheringModelProcessable.process(GatheringModelProcessable.java:78) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleCloseElementEnd(TemplateHandlerAdapterMarkupHandler.java:388) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:322) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleCloseElementEnd(OutputExpressionInlinePreProcessorHandler.java:220) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:164) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.attoparser.HtmlElement.handleCloseElementEnd(HtmlElement.java:169) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.HtmlMarkupHandler.handleCloseElementEnd(HtmlMarkupHandler.java:412) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupEventProcessorHandler.handleCloseElementEnd(MarkupEventProcessorHandler.java:473) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.ParsingElementMarkupUtil.parseCloseElement(ParsingElementMarkupUtil.java:201) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:725) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1415) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1159) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.13.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.13.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:227) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:221) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:75) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:642) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:408) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:340) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:277) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequestDispatcher.forward(HeaderWriterFilter.java:170) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1415) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1159) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.13.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.13.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:227) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:221) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-10-13T10:16:12.483+09:00 ERROR 14256 --- [http-nio-8080-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "URL [file:src/main/resources/templates//article/list.html]")] with root cause
+
+org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'content' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:218) ~[spring-expression-6.0.12.jar:6.0.12]
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:105) ~[spring-expression-6.0.12.jar:6.0.12]
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:410) ~[spring-expression-6.0.12.jar:6.0.12]
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:96) ~[spring-expression-6.0.12.jar:6.0.12]
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:114) ~[spring-expression-6.0.12.jar:6.0.12]
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:338) ~[spring-expression-6.0.12.jar:6.0.12]
+	at org.thymeleaf.spring6.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:265) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:125) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.processor.StandardEachTagProcessor.doProcess(StandardEachTagProcessor.java:73) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.Model.process(Model.java:282) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1587) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.Model.process(Model.java:282) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1587) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.Model.process(Model.java:282) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.Model.process(Model.java:290) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.GatheringModelProcessable.process(GatheringModelProcessable.java:78) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleCloseElementEnd(TemplateHandlerAdapterMarkupHandler.java:388) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:322) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleCloseElementEnd(OutputExpressionInlinePreProcessorHandler.java:220) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:164) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.attoparser.HtmlElement.handleCloseElementEnd(HtmlElement.java:169) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.HtmlMarkupHandler.handleCloseElementEnd(HtmlMarkupHandler.java:412) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupEventProcessorHandler.handleCloseElementEnd(MarkupEventProcessorHandler.java:473) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.ParsingElementMarkupUtil.parseCloseElement(ParsingElementMarkupUtil.java:201) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:725) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1415) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1159) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.13.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.13.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:227) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:221) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:75) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:642) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:408) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:340) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:277) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequestDispatcher.forward(HeaderWriterFilter.java:170) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1415) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1159) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.13.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.13.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:227) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:221) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-10-13T10:16:12.486+09:00 ERROR 14256 --- [http-nio-8080-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] threw exception
+
+org.springframework.security.access.AccessDeniedException: Access Denied
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:98) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:227) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:221) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:642) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:520) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:463) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:343) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:222) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:308) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-10-13T10:16:12.486+09:00 ERROR 14256 --- [http-nio-8080-exec-7] o.a.c.c.C.[Tomcat].[localhost]           : Exception Processing ErrorPage[errorCode=0, location=/error]
+
+jakarta.servlet.ServletException: Unable to handle the Spring Security Exception because the response is already committed.
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:144) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:227) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:221) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:642) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:520) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:463) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:343) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:222) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:308) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: org.springframework.security.access.AccessDeniedException: Access Denied
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:98) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-6.1.4.jar:6.1.4]
+	... 58 common frames omitted
+
+2023-10-13T10:17:25.164+09:00  INFO 14256 --- [http-nio-8080-exec-3] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 1
+2023-10-13T10:17:25.164+09:00  INFO 14256 --- [http-nio-8080-exec-3] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T10:17:25.164+09:00  INFO 14256 --- [http-nio-8080-exec-3] k.c.s.c.article.ArticleController        : pageResponseDTO total : 11
+2023-10-13T10:17:25.164+09:00  INFO 14256 --- [http-nio-8080-exec-3] k.c.s.c.article.ArticleController        : pageResponseDTO start : 1
+2023-10-13T10:17:25.164+09:00  INFO 14256 --- [http-nio-8080-exec-3] k.c.s.c.article.ArticleController        : pageResponseDTO end : 2
+2023-10-13T10:17:25.164+09:00  INFO 14256 --- [http-nio-8080-exec-3] k.c.s.c.article.ArticleController        : pageResponseDTO prev : false
+2023-10-13T10:17:25.164+09:00  INFO 14256 --- [http-nio-8080-exec-3] k.c.s.c.article.ArticleController        : pageResponseDTO next : false
+2023-10-13T10:17:28.655+09:00  WARN 14256 --- [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public java.lang.String kr.co.sboard.controller.article.ArticleController.list(org.springframework.ui.Model,kr.co.sboard.dto.PageRequestDTO): [Field error in object 'pageRequestDTO' on field 'pg': rejected value []; codes [typeMismatch.pageRequestDTO.pg,typeMismatch.pg,typeMismatch.int,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [pageRequestDTO.pg,pg]; arguments []; default message [pg]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'int' for property 'pg'; For input string: ""]] ]
+2023-10-13T10:17:30.236+09:00  INFO 14256 --- [http-nio-8080-exec-4] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 1
+2023-10-13T10:17:30.236+09:00  INFO 14256 --- [http-nio-8080-exec-4] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T10:17:30.236+09:00  INFO 14256 --- [http-nio-8080-exec-4] k.c.s.c.article.ArticleController        : pageResponseDTO total : 11
+2023-10-13T10:17:30.237+09:00  INFO 14256 --- [http-nio-8080-exec-4] k.c.s.c.article.ArticleController        : pageResponseDTO start : 1
+2023-10-13T10:17:30.237+09:00  INFO 14256 --- [http-nio-8080-exec-4] k.c.s.c.article.ArticleController        : pageResponseDTO end : 2
+2023-10-13T10:17:30.237+09:00  INFO 14256 --- [http-nio-8080-exec-4] k.c.s.c.article.ArticleController        : pageResponseDTO prev : false
+2023-10-13T10:17:30.237+09:00  INFO 14256 --- [http-nio-8080-exec-4] k.c.s.c.article.ArticleController        : pageResponseDTO next : false
+2023-10-13T10:17:31.098+09:00  INFO 14256 --- [http-nio-8080-exec-3] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 1
+2023-10-13T10:17:31.098+09:00  INFO 14256 --- [http-nio-8080-exec-3] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T10:17:31.098+09:00  INFO 14256 --- [http-nio-8080-exec-3] k.c.s.c.article.ArticleController        : pageResponseDTO total : 11
+2023-10-13T10:17:31.098+09:00  INFO 14256 --- [http-nio-8080-exec-3] k.c.s.c.article.ArticleController        : pageResponseDTO start : 1
+2023-10-13T10:17:31.098+09:00  INFO 14256 --- [http-nio-8080-exec-3] k.c.s.c.article.ArticleController        : pageResponseDTO end : 2
+2023-10-13T10:17:31.098+09:00  INFO 14256 --- [http-nio-8080-exec-3] k.c.s.c.article.ArticleController        : pageResponseDTO prev : false
+2023-10-13T10:17:31.099+09:00  INFO 14256 --- [http-nio-8080-exec-3] k.c.s.c.article.ArticleController        : pageResponseDTO next : false
+2023-10-13T10:17:31.647+09:00  INFO 14256 --- [http-nio-8080-exec-4] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 1
+2023-10-13T10:17:31.647+09:00  INFO 14256 --- [http-nio-8080-exec-4] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T10:17:31.647+09:00  INFO 14256 --- [http-nio-8080-exec-4] k.c.s.c.article.ArticleController        : pageResponseDTO total : 11
+2023-10-13T10:17:31.647+09:00  INFO 14256 --- [http-nio-8080-exec-4] k.c.s.c.article.ArticleController        : pageResponseDTO start : 1
+2023-10-13T10:17:31.647+09:00  INFO 14256 --- [http-nio-8080-exec-4] k.c.s.c.article.ArticleController        : pageResponseDTO end : 2
+2023-10-13T10:17:31.647+09:00  INFO 14256 --- [http-nio-8080-exec-4] k.c.s.c.article.ArticleController        : pageResponseDTO prev : false
+2023-10-13T10:17:31.647+09:00  INFO 14256 --- [http-nio-8080-exec-4] k.c.s.c.article.ArticleController        : pageResponseDTO next : false
+2023-10-13T10:17:59.465+09:00  INFO 14256 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 1
+2023-10-13T10:17:59.465+09:00  INFO 14256 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T10:17:59.465+09:00  INFO 14256 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO total : 11
+2023-10-13T10:17:59.465+09:00  INFO 14256 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO start : 1
+2023-10-13T10:17:59.465+09:00  INFO 14256 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO end : 2
+2023-10-13T10:17:59.465+09:00  INFO 14256 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO prev : false
+2023-10-13T10:17:59.465+09:00  INFO 14256 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO next : false
+2023-10-13T10:23:00.880+09:00  INFO 14256 --- [http-nio-8080-exec-10] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 1
+2023-10-13T10:23:00.880+09:00  INFO 14256 --- [http-nio-8080-exec-10] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T10:23:00.880+09:00  INFO 14256 --- [http-nio-8080-exec-10] k.c.s.c.article.ArticleController        : pageResponseDTO total : 11
+2023-10-13T10:23:00.880+09:00  INFO 14256 --- [http-nio-8080-exec-10] k.c.s.c.article.ArticleController        : pageResponseDTO start : 1
+2023-10-13T10:23:00.880+09:00  INFO 14256 --- [http-nio-8080-exec-10] k.c.s.c.article.ArticleController        : pageResponseDTO end : 2
+2023-10-13T10:23:00.881+09:00  INFO 14256 --- [http-nio-8080-exec-10] k.c.s.c.article.ArticleController        : pageResponseDTO prev : false
+2023-10-13T10:23:00.881+09:00  INFO 14256 --- [http-nio-8080-exec-10] k.c.s.c.article.ArticleController        : pageResponseDTO next : false
+2023-10-13T10:23:01.366+09:00  INFO 14256 --- [http-nio-8080-exec-2] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 1
+2023-10-13T10:23:01.366+09:00  INFO 14256 --- [http-nio-8080-exec-2] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T10:23:01.366+09:00  INFO 14256 --- [http-nio-8080-exec-2] k.c.s.c.article.ArticleController        : pageResponseDTO total : 11
+2023-10-13T10:23:01.366+09:00  INFO 14256 --- [http-nio-8080-exec-2] k.c.s.c.article.ArticleController        : pageResponseDTO start : 1
+2023-10-13T10:23:01.366+09:00  INFO 14256 --- [http-nio-8080-exec-2] k.c.s.c.article.ArticleController        : pageResponseDTO end : 2
+2023-10-13T10:23:01.366+09:00  INFO 14256 --- [http-nio-8080-exec-2] k.c.s.c.article.ArticleController        : pageResponseDTO prev : false
+2023-10-13T10:23:01.366+09:00  INFO 14256 --- [http-nio-8080-exec-2] k.c.s.c.article.ArticleController        : pageResponseDTO next : false
+2023-10-13T10:23:02.021+09:00  INFO 14256 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 2
+2023-10-13T10:23:02.021+09:00  INFO 14256 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T10:23:02.021+09:00  INFO 14256 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO total : 11
+2023-10-13T10:23:02.022+09:00  INFO 14256 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO start : 1
+2023-10-13T10:23:02.022+09:00  INFO 14256 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO end : 2
+2023-10-13T10:23:02.022+09:00  INFO 14256 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO prev : false
+2023-10-13T10:23:02.022+09:00  INFO 14256 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO next : false
+2023-10-13T10:23:02.980+09:00  INFO 14256 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 1
+2023-10-13T10:23:02.980+09:00  INFO 14256 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T10:23:02.980+09:00  INFO 14256 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO total : 11
+2023-10-13T10:23:02.981+09:00  INFO 14256 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO start : 1
+2023-10-13T10:23:02.981+09:00  INFO 14256 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO end : 2
+2023-10-13T10:23:02.981+09:00  INFO 14256 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO prev : false
+2023-10-13T10:23:02.981+09:00  INFO 14256 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO next : false
+2023-10-13T10:23:04.002+09:00  INFO 14256 --- [http-nio-8080-exec-5] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 2
+2023-10-13T10:23:04.002+09:00  INFO 14256 --- [http-nio-8080-exec-5] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T10:23:04.002+09:00  INFO 14256 --- [http-nio-8080-exec-5] k.c.s.c.article.ArticleController        : pageResponseDTO total : 11
+2023-10-13T10:23:04.002+09:00  INFO 14256 --- [http-nio-8080-exec-5] k.c.s.c.article.ArticleController        : pageResponseDTO start : 1
+2023-10-13T10:23:04.002+09:00  INFO 14256 --- [http-nio-8080-exec-5] k.c.s.c.article.ArticleController        : pageResponseDTO end : 2
+2023-10-13T10:23:04.002+09:00  INFO 14256 --- [http-nio-8080-exec-5] k.c.s.c.article.ArticleController        : pageResponseDTO prev : false
+2023-10-13T10:23:04.003+09:00  INFO 14256 --- [http-nio-8080-exec-5] k.c.s.c.article.ArticleController        : pageResponseDTO next : false
+2023-10-13T10:23:04.958+09:00  INFO 14256 --- [http-nio-8080-exec-1] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 1
+2023-10-13T10:23:04.959+09:00  INFO 14256 --- [http-nio-8080-exec-1] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T10:23:04.959+09:00  INFO 14256 --- [http-nio-8080-exec-1] k.c.s.c.article.ArticleController        : pageResponseDTO total : 11
+2023-10-13T10:23:04.959+09:00  INFO 14256 --- [http-nio-8080-exec-1] k.c.s.c.article.ArticleController        : pageResponseDTO start : 1
+2023-10-13T10:23:04.959+09:00  INFO 14256 --- [http-nio-8080-exec-1] k.c.s.c.article.ArticleController        : pageResponseDTO end : 2
+2023-10-13T10:23:04.959+09:00  INFO 14256 --- [http-nio-8080-exec-1] k.c.s.c.article.ArticleController        : pageResponseDTO prev : false
+2023-10-13T10:23:04.959+09:00  INFO 14256 --- [http-nio-8080-exec-1] k.c.s.c.article.ArticleController        : pageResponseDTO next : false
+2023-10-13T10:24:02.222+09:00  INFO 14256 --- [http-nio-8080-exec-4] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 1
+2023-10-13T10:24:02.222+09:00  INFO 14256 --- [http-nio-8080-exec-4] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T10:24:02.222+09:00  INFO 14256 --- [http-nio-8080-exec-4] k.c.s.c.article.ArticleController        : pageResponseDTO total : 176
+2023-10-13T10:24:02.222+09:00  INFO 14256 --- [http-nio-8080-exec-4] k.c.s.c.article.ArticleController        : pageResponseDTO start : 1
+2023-10-13T10:24:02.222+09:00  INFO 14256 --- [http-nio-8080-exec-4] k.c.s.c.article.ArticleController        : pageResponseDTO end : 10
+2023-10-13T10:24:02.222+09:00  INFO 14256 --- [http-nio-8080-exec-4] k.c.s.c.article.ArticleController        : pageResponseDTO prev : false
+2023-10-13T10:24:02.222+09:00  INFO 14256 --- [http-nio-8080-exec-4] k.c.s.c.article.ArticleController        : pageResponseDTO next : true
+2023-10-13T10:24:03.261+09:00  INFO 14256 --- [http-nio-8080-exec-3] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 11
+2023-10-13T10:24:03.261+09:00  INFO 14256 --- [http-nio-8080-exec-3] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T10:24:03.261+09:00  INFO 14256 --- [http-nio-8080-exec-3] k.c.s.c.article.ArticleController        : pageResponseDTO total : 176
+2023-10-13T10:24:03.261+09:00  INFO 14256 --- [http-nio-8080-exec-3] k.c.s.c.article.ArticleController        : pageResponseDTO start : 11
+2023-10-13T10:24:03.261+09:00  INFO 14256 --- [http-nio-8080-exec-3] k.c.s.c.article.ArticleController        : pageResponseDTO end : 18
+2023-10-13T10:24:03.261+09:00  INFO 14256 --- [http-nio-8080-exec-3] k.c.s.c.article.ArticleController        : pageResponseDTO prev : true
+2023-10-13T10:24:03.261+09:00  INFO 14256 --- [http-nio-8080-exec-3] k.c.s.c.article.ArticleController        : pageResponseDTO next : false
+2023-10-13T10:24:04.646+09:00  INFO 14256 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 14
+2023-10-13T10:24:04.646+09:00  INFO 14256 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T10:24:04.646+09:00  INFO 14256 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO total : 176
+2023-10-13T10:24:04.646+09:00  INFO 14256 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO start : 11
+2023-10-13T10:24:04.646+09:00  INFO 14256 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO end : 18
+2023-10-13T10:24:04.646+09:00  INFO 14256 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO prev : true
+2023-10-13T10:24:04.646+09:00  INFO 14256 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO next : false
+2023-10-13T10:24:05.499+09:00  INFO 14256 --- [http-nio-8080-exec-6] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 11
+2023-10-13T10:24:05.500+09:00  INFO 14256 --- [http-nio-8080-exec-6] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T10:24:05.500+09:00  INFO 14256 --- [http-nio-8080-exec-6] k.c.s.c.article.ArticleController        : pageResponseDTO total : 176
+2023-10-13T10:24:05.500+09:00  INFO 14256 --- [http-nio-8080-exec-6] k.c.s.c.article.ArticleController        : pageResponseDTO start : 11
+2023-10-13T10:24:05.500+09:00  INFO 14256 --- [http-nio-8080-exec-6] k.c.s.c.article.ArticleController        : pageResponseDTO end : 18
+2023-10-13T10:24:05.500+09:00  INFO 14256 --- [http-nio-8080-exec-6] k.c.s.c.article.ArticleController        : pageResponseDTO prev : true
+2023-10-13T10:24:05.500+09:00  INFO 14256 --- [http-nio-8080-exec-6] k.c.s.c.article.ArticleController        : pageResponseDTO next : false
+2023-10-13T10:24:06.023+09:00  INFO 14256 --- [http-nio-8080-exec-9] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 10
+2023-10-13T10:24:06.024+09:00  INFO 14256 --- [http-nio-8080-exec-9] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T10:24:06.024+09:00  INFO 14256 --- [http-nio-8080-exec-9] k.c.s.c.article.ArticleController        : pageResponseDTO total : 176
+2023-10-13T10:24:06.024+09:00  INFO 14256 --- [http-nio-8080-exec-9] k.c.s.c.article.ArticleController        : pageResponseDTO start : 1
+2023-10-13T10:24:06.024+09:00  INFO 14256 --- [http-nio-8080-exec-9] k.c.s.c.article.ArticleController        : pageResponseDTO end : 10
+2023-10-13T10:24:06.024+09:00  INFO 14256 --- [http-nio-8080-exec-9] k.c.s.c.article.ArticleController        : pageResponseDTO prev : false
+2023-10-13T10:24:06.024+09:00  INFO 14256 --- [http-nio-8080-exec-9] k.c.s.c.article.ArticleController        : pageResponseDTO next : true
+2023-10-13T10:24:06.768+09:00  INFO 14256 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 6
+2023-10-13T10:24:06.768+09:00  INFO 14256 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T10:24:06.768+09:00  INFO 14256 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO total : 176
+2023-10-13T10:24:06.768+09:00  INFO 14256 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO start : 1
+2023-10-13T10:24:06.769+09:00  INFO 14256 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO end : 10
+2023-10-13T10:24:06.769+09:00  INFO 14256 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO prev : false
+2023-10-13T10:24:06.769+09:00  INFO 14256 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO next : true
+2023-10-13T10:24:07.224+09:00  INFO 14256 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 8
+2023-10-13T10:24:07.224+09:00  INFO 14256 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T10:24:07.224+09:00  INFO 14256 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO total : 176
+2023-10-13T10:24:07.224+09:00  INFO 14256 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO start : 1
+2023-10-13T10:24:07.224+09:00  INFO 14256 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO end : 10
+2023-10-13T10:24:07.224+09:00  INFO 14256 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO prev : false
+2023-10-13T10:24:07.224+09:00  INFO 14256 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO next : true
+2023-10-13T10:24:07.650+09:00  INFO 14256 --- [http-nio-8080-exec-2] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 10
+2023-10-13T10:24:07.651+09:00  INFO 14256 --- [http-nio-8080-exec-2] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T10:24:07.651+09:00  INFO 14256 --- [http-nio-8080-exec-2] k.c.s.c.article.ArticleController        : pageResponseDTO total : 176
+2023-10-13T10:24:07.651+09:00  INFO 14256 --- [http-nio-8080-exec-2] k.c.s.c.article.ArticleController        : pageResponseDTO start : 1
+2023-10-13T10:24:07.651+09:00  INFO 14256 --- [http-nio-8080-exec-2] k.c.s.c.article.ArticleController        : pageResponseDTO end : 10
+2023-10-13T10:24:07.651+09:00  INFO 14256 --- [http-nio-8080-exec-2] k.c.s.c.article.ArticleController        : pageResponseDTO prev : false
+2023-10-13T10:24:07.651+09:00  INFO 14256 --- [http-nio-8080-exec-2] k.c.s.c.article.ArticleController        : pageResponseDTO next : true
+2023-10-13T10:24:08.087+09:00  INFO 14256 --- [http-nio-8080-exec-6] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 5
+2023-10-13T10:24:08.087+09:00  INFO 14256 --- [http-nio-8080-exec-6] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T10:24:08.087+09:00  INFO 14256 --- [http-nio-8080-exec-6] k.c.s.c.article.ArticleController        : pageResponseDTO total : 176
+2023-10-13T10:24:08.087+09:00  INFO 14256 --- [http-nio-8080-exec-6] k.c.s.c.article.ArticleController        : pageResponseDTO start : 1
+2023-10-13T10:24:08.087+09:00  INFO 14256 --- [http-nio-8080-exec-6] k.c.s.c.article.ArticleController        : pageResponseDTO end : 10
+2023-10-13T10:24:08.087+09:00  INFO 14256 --- [http-nio-8080-exec-6] k.c.s.c.article.ArticleController        : pageResponseDTO prev : false
+2023-10-13T10:24:08.087+09:00  INFO 14256 --- [http-nio-8080-exec-6] k.c.s.c.article.ArticleController        : pageResponseDTO next : true
+2023-10-13T10:24:08.534+09:00  INFO 14256 --- [http-nio-8080-exec-6] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 3
+2023-10-13T10:24:08.534+09:00  INFO 14256 --- [http-nio-8080-exec-6] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T10:24:08.534+09:00  INFO 14256 --- [http-nio-8080-exec-6] k.c.s.c.article.ArticleController        : pageResponseDTO total : 176
+2023-10-13T10:24:08.534+09:00  INFO 14256 --- [http-nio-8080-exec-6] k.c.s.c.article.ArticleController        : pageResponseDTO start : 1
+2023-10-13T10:24:08.534+09:00  INFO 14256 --- [http-nio-8080-exec-6] k.c.s.c.article.ArticleController        : pageResponseDTO end : 10
+2023-10-13T10:24:08.534+09:00  INFO 14256 --- [http-nio-8080-exec-6] k.c.s.c.article.ArticleController        : pageResponseDTO prev : false
+2023-10-13T10:24:08.534+09:00  INFO 14256 --- [http-nio-8080-exec-6] k.c.s.c.article.ArticleController        : pageResponseDTO next : true
+2023-10-13T10:24:10.237+09:00  INFO 14256 --- [http-nio-8080-exec-9] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 1
+2023-10-13T10:24:10.237+09:00  INFO 14256 --- [http-nio-8080-exec-9] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T10:24:10.238+09:00  INFO 14256 --- [http-nio-8080-exec-9] k.c.s.c.article.ArticleController        : pageResponseDTO total : 176
+2023-10-13T10:24:10.238+09:00  INFO 14256 --- [http-nio-8080-exec-9] k.c.s.c.article.ArticleController        : pageResponseDTO start : 1
+2023-10-13T10:24:10.238+09:00  INFO 14256 --- [http-nio-8080-exec-9] k.c.s.c.article.ArticleController        : pageResponseDTO end : 10
+2023-10-13T10:24:10.238+09:00  INFO 14256 --- [http-nio-8080-exec-9] k.c.s.c.article.ArticleController        : pageResponseDTO prev : false
+2023-10-13T10:24:10.238+09:00  INFO 14256 --- [http-nio-8080-exec-9] k.c.s.c.article.ArticleController        : pageResponseDTO next : true
+2023-10-13T10:24:11.103+09:00  INFO 14256 --- [http-nio-8080-exec-5] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 11
+2023-10-13T10:24:11.103+09:00  INFO 14256 --- [http-nio-8080-exec-5] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T10:24:11.103+09:00  INFO 14256 --- [http-nio-8080-exec-5] k.c.s.c.article.ArticleController        : pageResponseDTO total : 176
+2023-10-13T10:24:11.103+09:00  INFO 14256 --- [http-nio-8080-exec-5] k.c.s.c.article.ArticleController        : pageResponseDTO start : 11
+2023-10-13T10:24:11.103+09:00  INFO 14256 --- [http-nio-8080-exec-5] k.c.s.c.article.ArticleController        : pageResponseDTO end : 18
+2023-10-13T10:24:11.103+09:00  INFO 14256 --- [http-nio-8080-exec-5] k.c.s.c.article.ArticleController        : pageResponseDTO prev : true
+2023-10-13T10:24:11.103+09:00  INFO 14256 --- [http-nio-8080-exec-5] k.c.s.c.article.ArticleController        : pageResponseDTO next : false
+2023-10-13T10:24:11.657+09:00  INFO 14256 --- [http-nio-8080-exec-5] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 17
+2023-10-13T10:24:11.657+09:00  INFO 14256 --- [http-nio-8080-exec-5] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T10:24:11.657+09:00  INFO 14256 --- [http-nio-8080-exec-5] k.c.s.c.article.ArticleController        : pageResponseDTO total : 176
+2023-10-13T10:24:11.657+09:00  INFO 14256 --- [http-nio-8080-exec-5] k.c.s.c.article.ArticleController        : pageResponseDTO start : 11
+2023-10-13T10:24:11.657+09:00  INFO 14256 --- [http-nio-8080-exec-5] k.c.s.c.article.ArticleController        : pageResponseDTO end : 18
+2023-10-13T10:24:11.657+09:00  INFO 14256 --- [http-nio-8080-exec-5] k.c.s.c.article.ArticleController        : pageResponseDTO prev : true
+2023-10-13T10:24:11.657+09:00  INFO 14256 --- [http-nio-8080-exec-5] k.c.s.c.article.ArticleController        : pageResponseDTO next : false
+2023-10-13T10:24:12.116+09:00  INFO 14256 --- [http-nio-8080-exec-1] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 18
+2023-10-13T10:24:12.116+09:00  INFO 14256 --- [http-nio-8080-exec-1] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T10:24:12.116+09:00  INFO 14256 --- [http-nio-8080-exec-1] k.c.s.c.article.ArticleController        : pageResponseDTO total : 176
+2023-10-13T10:24:12.116+09:00  INFO 14256 --- [http-nio-8080-exec-1] k.c.s.c.article.ArticleController        : pageResponseDTO start : 11
+2023-10-13T10:24:12.116+09:00  INFO 14256 --- [http-nio-8080-exec-1] k.c.s.c.article.ArticleController        : pageResponseDTO end : 18
+2023-10-13T10:24:12.116+09:00  INFO 14256 --- [http-nio-8080-exec-1] k.c.s.c.article.ArticleController        : pageResponseDTO prev : true
+2023-10-13T10:24:12.116+09:00  INFO 14256 --- [http-nio-8080-exec-1] k.c.s.c.article.ArticleController        : pageResponseDTO next : false
+2023-10-13T10:24:14.420+09:00  INFO 14256 --- [http-nio-8080-exec-1] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 13
+2023-10-13T10:24:14.420+09:00  INFO 14256 --- [http-nio-8080-exec-1] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T10:24:14.420+09:00  INFO 14256 --- [http-nio-8080-exec-1] k.c.s.c.article.ArticleController        : pageResponseDTO total : 176
+2023-10-13T10:24:14.421+09:00  INFO 14256 --- [http-nio-8080-exec-1] k.c.s.c.article.ArticleController        : pageResponseDTO start : 11
+2023-10-13T10:24:14.421+09:00  INFO 14256 --- [http-nio-8080-exec-1] k.c.s.c.article.ArticleController        : pageResponseDTO end : 18
+2023-10-13T10:24:14.421+09:00  INFO 14256 --- [http-nio-8080-exec-1] k.c.s.c.article.ArticleController        : pageResponseDTO prev : true
+2023-10-13T10:24:14.421+09:00  INFO 14256 --- [http-nio-8080-exec-1] k.c.s.c.article.ArticleController        : pageResponseDTO next : false
+2023-10-13T10:24:15.369+09:00  INFO 14256 --- [http-nio-8080-exec-6] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 10
+2023-10-13T10:24:15.369+09:00  INFO 14256 --- [http-nio-8080-exec-6] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T10:24:15.369+09:00  INFO 14256 --- [http-nio-8080-exec-6] k.c.s.c.article.ArticleController        : pageResponseDTO total : 176
+2023-10-13T10:24:15.369+09:00  INFO 14256 --- [http-nio-8080-exec-6] k.c.s.c.article.ArticleController        : pageResponseDTO start : 1
+2023-10-13T10:24:15.369+09:00  INFO 14256 --- [http-nio-8080-exec-6] k.c.s.c.article.ArticleController        : pageResponseDTO end : 10
+2023-10-13T10:24:15.369+09:00  INFO 14256 --- [http-nio-8080-exec-6] k.c.s.c.article.ArticleController        : pageResponseDTO prev : false
+2023-10-13T10:24:15.369+09:00  INFO 14256 --- [http-nio-8080-exec-6] k.c.s.c.article.ArticleController        : pageResponseDTO next : true
+2023-10-13T10:25:34.351+09:00  INFO 14256 --- [http-nio-8080-exec-3] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 10
+2023-10-13T10:25:34.351+09:00  INFO 14256 --- [http-nio-8080-exec-3] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T10:25:34.351+09:00  INFO 14256 --- [http-nio-8080-exec-3] k.c.s.c.article.ArticleController        : pageResponseDTO total : 176
+2023-10-13T10:25:34.351+09:00  INFO 14256 --- [http-nio-8080-exec-3] k.c.s.c.article.ArticleController        : pageResponseDTO start : 1
+2023-10-13T10:25:34.351+09:00  INFO 14256 --- [http-nio-8080-exec-3] k.c.s.c.article.ArticleController        : pageResponseDTO end : 10
+2023-10-13T10:25:34.351+09:00  INFO 14256 --- [http-nio-8080-exec-3] k.c.s.c.article.ArticleController        : pageResponseDTO prev : false
+2023-10-13T10:25:34.351+09:00  INFO 14256 --- [http-nio-8080-exec-3] k.c.s.c.article.ArticleController        : pageResponseDTO next : true
+2023-10-13T10:25:34.796+09:00  INFO 14256 --- [http-nio-8080-exec-10] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 10
+2023-10-13T10:25:34.797+09:00  INFO 14256 --- [http-nio-8080-exec-10] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T10:25:34.797+09:00  INFO 14256 --- [http-nio-8080-exec-10] k.c.s.c.article.ArticleController        : pageResponseDTO total : 176
+2023-10-13T10:25:34.797+09:00  INFO 14256 --- [http-nio-8080-exec-10] k.c.s.c.article.ArticleController        : pageResponseDTO start : 1
+2023-10-13T10:25:34.797+09:00  INFO 14256 --- [http-nio-8080-exec-10] k.c.s.c.article.ArticleController        : pageResponseDTO end : 10
+2023-10-13T10:25:34.797+09:00  INFO 14256 --- [http-nio-8080-exec-10] k.c.s.c.article.ArticleController        : pageResponseDTO prev : false
+2023-10-13T10:25:34.797+09:00  INFO 14256 --- [http-nio-8080-exec-10] k.c.s.c.article.ArticleController        : pageResponseDTO next : true
+2023-10-13T10:25:35.203+09:00  INFO 14256 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 11
+2023-10-13T10:25:35.203+09:00  INFO 14256 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T10:25:35.203+09:00  INFO 14256 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO total : 176
+2023-10-13T10:25:35.203+09:00  INFO 14256 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO start : 11
+2023-10-13T10:25:35.203+09:00  INFO 14256 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO end : 18
+2023-10-13T10:25:35.203+09:00  INFO 14256 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO prev : true
+2023-10-13T10:25:35.203+09:00  INFO 14256 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO next : false
+2023-10-13T10:25:35.811+09:00  INFO 14256 --- [http-nio-8080-exec-1] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 10
+2023-10-13T10:25:35.811+09:00  INFO 14256 --- [http-nio-8080-exec-1] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T10:25:35.811+09:00  INFO 14256 --- [http-nio-8080-exec-1] k.c.s.c.article.ArticleController        : pageResponseDTO total : 176
+2023-10-13T10:25:35.811+09:00  INFO 14256 --- [http-nio-8080-exec-1] k.c.s.c.article.ArticleController        : pageResponseDTO start : 1
+2023-10-13T10:25:35.811+09:00  INFO 14256 --- [http-nio-8080-exec-1] k.c.s.c.article.ArticleController        : pageResponseDTO end : 10
+2023-10-13T10:25:35.811+09:00  INFO 14256 --- [http-nio-8080-exec-1] k.c.s.c.article.ArticleController        : pageResponseDTO prev : false
+2023-10-13T10:25:35.811+09:00  INFO 14256 --- [http-nio-8080-exec-1] k.c.s.c.article.ArticleController        : pageResponseDTO next : true
+2023-10-13T10:25:36.411+09:00  INFO 14256 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 4
+2023-10-13T10:25:36.412+09:00  INFO 14256 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T10:25:36.412+09:00  INFO 14256 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO total : 176
+2023-10-13T10:25:36.412+09:00  INFO 14256 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO start : 1
+2023-10-13T10:25:36.412+09:00  INFO 14256 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO end : 10
+2023-10-13T10:25:36.412+09:00  INFO 14256 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO prev : false
+2023-10-13T10:25:36.412+09:00  INFO 14256 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO next : true
+2023-10-13T10:48:04.000+09:00  INFO 14256 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-13T10:48:04.002+09:00  INFO 14256 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-13T10:48:04.005+09:00  INFO 14256 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-13T10:48:06.701+09:00  INFO 9976 --- [main] kr.co.sboard.SboardApplication           : Starting SboardApplication using Java 17.0.8 with PID 9976 (C:\Users\Java\Desktop\Workspace\Spring\Sboard\build\classes\java\main started by Java in C:\Users\Java\Desktop\Workspace\Spring\Sboard)
+2023-10-13T10:48:06.702+09:00  INFO 9976 --- [main] kr.co.sboard.SboardApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-10-13T10:48:07.092+09:00  INFO 9976 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-13T10:48:07.119+09:00  INFO 9976 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 4 JPA repository interfaces.
+2023-10-13T10:48:07.177+09:00  WARN 9976 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[kr.co.sboard]' package. Please check your configuration.
+2023-10-13T10:48:07.384+09:00  INFO 9976 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-13T10:48:07.389+09:00  INFO 9976 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-13T10:48:07.389+09:00  INFO 9976 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-13T10:48:07.433+09:00  INFO 9976 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-13T10:48:07.433+09:00  INFO 9976 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 622 ms
+2023-10-13T10:48:07.509+09:00  INFO 9976 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-13T10:48:07.533+09:00  INFO 9976 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-13T10:48:07.534+09:00  INFO 9976 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-13T10:48:07.604+09:00  INFO 9976 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-13T10:48:07.671+09:00  INFO 9976 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-13T10:48:07.679+09:00  INFO 9976 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-13T10:48:07.811+09:00  INFO 9976 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1b98355f
+2023-10-13T10:48:07.812+09:00  INFO 9976 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-13T10:48:07.837+09:00  WARN 9976 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL57Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-13T10:48:07.944+09:00  INFO 9976 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-13T10:48:08.313+09:00  INFO 9976 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-13T10:48:08.315+09:00  INFO 9976 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-13T10:48:08.555+09:00  WARN 9976 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-13T10:48:08.612+09:00  INFO 9976 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-10-13T10:48:08.687+09:00  INFO 9976 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@65a7bc80, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5b132063, org.springframework.security.web.context.SecurityContextHolderFilter@73f6ffb1, org.springframework.security.web.header.HeaderWriterFilter@34c050a1, org.springframework.security.web.authentication.logout.LogoutFilter@5bb7fc38, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@27ea7c8f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@41fe0d98, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@64c1a76e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4b98c80c, org.springframework.security.web.access.ExceptionTranslationFilter@3dfe2797, org.springframework.security.web.access.intercept.AuthorizationFilter@599cf2cd]
+2023-10-13T10:48:08.854+09:00  INFO 9976 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-13T10:48:08.858+09:00  INFO 9976 --- [main] kr.co.sboard.SboardApplication           : Started SboardApplication in 2.367 seconds (process running for 2.608)
+2023-10-13T10:48:11.257+09:00  INFO 9976 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-13T10:48:11.257+09:00  INFO 9976 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-13T10:48:11.257+09:00  INFO 9976 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-10-13T10:48:15.084+09:00  INFO 9976 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 1
+2023-10-13T10:48:15.084+09:00  INFO 9976 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T10:48:15.084+09:00  INFO 9976 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO total : 0
+2023-10-13T10:48:15.084+09:00  INFO 9976 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO start : 1
+2023-10-13T10:48:15.084+09:00  INFO 9976 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO end : 0
+2023-10-13T10:48:15.084+09:00  INFO 9976 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO prev : false
+2023-10-13T10:48:15.084+09:00  INFO 9976 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO next : false
+2023-10-13T10:48:15.222+09:00  WARN 9976 --- [http-nio-8080-exec-7] n.n.u.t.e.ExpressionProcessor            : Fragment expression "/index.html" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
+2023-10-13T10:50:19.391+09:00  INFO 9976 --- [http-nio-8080-exec-2] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 1
+2023-10-13T10:50:19.391+09:00  INFO 9976 --- [http-nio-8080-exec-2] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T10:50:19.391+09:00  INFO 9976 --- [http-nio-8080-exec-2] k.c.s.c.article.ArticleController        : pageResponseDTO total : 0
+2023-10-13T10:50:19.391+09:00  INFO 9976 --- [http-nio-8080-exec-2] k.c.s.c.article.ArticleController        : pageResponseDTO start : 1
+2023-10-13T10:50:19.391+09:00  INFO 9976 --- [http-nio-8080-exec-2] k.c.s.c.article.ArticleController        : pageResponseDTO end : 0
+2023-10-13T10:50:19.391+09:00  INFO 9976 --- [http-nio-8080-exec-2] k.c.s.c.article.ArticleController        : pageResponseDTO prev : false
+2023-10-13T10:50:19.392+09:00  INFO 9976 --- [http-nio-8080-exec-2] k.c.s.c.article.ArticleController        : pageResponseDTO next : false
+2023-10-13T10:50:19.900+09:00  INFO 9976 --- [http-nio-8080-exec-10] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 1
+2023-10-13T10:50:19.900+09:00  INFO 9976 --- [http-nio-8080-exec-10] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T10:50:19.901+09:00  INFO 9976 --- [http-nio-8080-exec-10] k.c.s.c.article.ArticleController        : pageResponseDTO total : 0
+2023-10-13T10:50:19.901+09:00  INFO 9976 --- [http-nio-8080-exec-10] k.c.s.c.article.ArticleController        : pageResponseDTO start : 1
+2023-10-13T10:50:19.901+09:00  INFO 9976 --- [http-nio-8080-exec-10] k.c.s.c.article.ArticleController        : pageResponseDTO end : 0
+2023-10-13T10:50:19.901+09:00  INFO 9976 --- [http-nio-8080-exec-10] k.c.s.c.article.ArticleController        : pageResponseDTO prev : false
+2023-10-13T10:50:19.901+09:00  INFO 9976 --- [http-nio-8080-exec-10] k.c.s.c.article.ArticleController        : pageResponseDTO next : false
+2023-10-13T10:50:20.387+09:00  INFO 9976 --- [http-nio-8080-exec-10] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 1
+2023-10-13T10:50:20.387+09:00  INFO 9976 --- [http-nio-8080-exec-10] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T10:50:20.387+09:00  INFO 9976 --- [http-nio-8080-exec-10] k.c.s.c.article.ArticleController        : pageResponseDTO total : 0
+2023-10-13T10:50:20.387+09:00  INFO 9976 --- [http-nio-8080-exec-10] k.c.s.c.article.ArticleController        : pageResponseDTO start : 1
+2023-10-13T10:50:20.387+09:00  INFO 9976 --- [http-nio-8080-exec-10] k.c.s.c.article.ArticleController        : pageResponseDTO end : 0
+2023-10-13T10:50:20.387+09:00  INFO 9976 --- [http-nio-8080-exec-10] k.c.s.c.article.ArticleController        : pageResponseDTO prev : false
+2023-10-13T10:50:20.387+09:00  INFO 9976 --- [http-nio-8080-exec-10] k.c.s.c.article.ArticleController        : pageResponseDTO next : false
+2023-10-13T10:50:21.110+09:00  INFO 9976 --- [http-nio-8080-exec-6] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 1
+2023-10-13T10:50:21.110+09:00  INFO 9976 --- [http-nio-8080-exec-6] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T10:50:21.110+09:00  INFO 9976 --- [http-nio-8080-exec-6] k.c.s.c.article.ArticleController        : pageResponseDTO total : 0
+2023-10-13T10:50:21.110+09:00  INFO 9976 --- [http-nio-8080-exec-6] k.c.s.c.article.ArticleController        : pageResponseDTO start : 1
+2023-10-13T10:50:21.111+09:00  INFO 9976 --- [http-nio-8080-exec-6] k.c.s.c.article.ArticleController        : pageResponseDTO end : 0
+2023-10-13T10:50:21.111+09:00  INFO 9976 --- [http-nio-8080-exec-6] k.c.s.c.article.ArticleController        : pageResponseDTO prev : false
+2023-10-13T10:50:21.111+09:00  INFO 9976 --- [http-nio-8080-exec-6] k.c.s.c.article.ArticleController        : pageResponseDTO next : false
+2023-10-13T10:50:21.588+09:00  INFO 9976 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 1
+2023-10-13T10:50:21.588+09:00  INFO 9976 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T10:50:21.589+09:00  INFO 9976 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO total : 0
+2023-10-13T10:50:21.589+09:00  INFO 9976 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO start : 1
+2023-10-13T10:50:21.589+09:00  INFO 9976 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO end : 0
+2023-10-13T10:50:21.589+09:00  INFO 9976 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO prev : false
+2023-10-13T10:50:21.589+09:00  INFO 9976 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO next : false
+2023-10-13T10:50:22.271+09:00  INFO 9976 --- [http-nio-8080-exec-3] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 1
+2023-10-13T10:50:22.272+09:00  INFO 9976 --- [http-nio-8080-exec-3] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T10:50:22.272+09:00  INFO 9976 --- [http-nio-8080-exec-3] k.c.s.c.article.ArticleController        : pageResponseDTO total : 0
+2023-10-13T10:50:22.272+09:00  INFO 9976 --- [http-nio-8080-exec-3] k.c.s.c.article.ArticleController        : pageResponseDTO start : 1
+2023-10-13T10:50:22.272+09:00  INFO 9976 --- [http-nio-8080-exec-3] k.c.s.c.article.ArticleController        : pageResponseDTO end : 0
+2023-10-13T10:50:22.272+09:00  INFO 9976 --- [http-nio-8080-exec-3] k.c.s.c.article.ArticleController        : pageResponseDTO prev : false
+2023-10-13T10:50:22.272+09:00  INFO 9976 --- [http-nio-8080-exec-3] k.c.s.c.article.ArticleController        : pageResponseDTO next : false
+2023-10-13T10:50:51.407+09:00  WARN 9976 --- [http-nio-8080-exec-8] org.apache.catalina.connector.Request    : Creating the temporary upload location [C:\Users\Java\AppData\Local\Temp\tomcat.8080.5109940290671628129\work\Tomcat\localhost\ROOT\src\main\resources\static\file] as it is required by the servlet [dispatcherServlet]
+2023-10-13T10:56:55.462+09:00  INFO 9976 --- [http-nio-8080-exec-9] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 1
+2023-10-13T10:56:55.462+09:00  INFO 9976 --- [http-nio-8080-exec-9] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T10:56:55.462+09:00  INFO 9976 --- [http-nio-8080-exec-9] k.c.s.c.article.ArticleController        : pageResponseDTO total : 0
+2023-10-13T10:56:55.462+09:00  INFO 9976 --- [http-nio-8080-exec-9] k.c.s.c.article.ArticleController        : pageResponseDTO start : 1
+2023-10-13T10:56:55.462+09:00  INFO 9976 --- [http-nio-8080-exec-9] k.c.s.c.article.ArticleController        : pageResponseDTO end : 0
+2023-10-13T10:56:55.462+09:00  INFO 9976 --- [http-nio-8080-exec-9] k.c.s.c.article.ArticleController        : pageResponseDTO prev : false
+2023-10-13T10:56:55.462+09:00  INFO 9976 --- [http-nio-8080-exec-9] k.c.s.c.article.ArticleController        : pageResponseDTO next : false
+2023-10-13T10:56:59.369+09:00  INFO 9976 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-13T10:56:59.371+09:00  INFO 9976 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-13T10:56:59.380+09:00  INFO 9976 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-13T10:57:00.934+09:00  INFO 9324 --- [main] kr.co.sboard.SboardApplication           : Starting SboardApplication using Java 17.0.8 with PID 9324 (C:\Users\Java\Desktop\Workspace\Spring\Sboard\build\classes\java\main started by Java in C:\Users\Java\Desktop\Workspace\Spring\Sboard)
+2023-10-13T10:57:00.935+09:00  INFO 9324 --- [main] kr.co.sboard.SboardApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-10-13T10:57:01.326+09:00  INFO 9324 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-13T10:57:01.354+09:00  INFO 9324 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 4 JPA repository interfaces.
+2023-10-13T10:57:01.416+09:00  WARN 9324 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[kr.co.sboard]' package. Please check your configuration.
+2023-10-13T10:57:01.628+09:00  INFO 9324 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-13T10:57:01.633+09:00  INFO 9324 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-13T10:57:01.633+09:00  INFO 9324 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-13T10:57:01.673+09:00  INFO 9324 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-13T10:57:01.674+09:00  INFO 9324 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 629 ms
+2023-10-13T10:57:01.749+09:00  INFO 9324 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-13T10:57:01.772+09:00  INFO 9324 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-13T10:57:01.773+09:00  INFO 9324 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-13T10:57:01.846+09:00  INFO 9324 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-13T10:57:01.915+09:00  INFO 9324 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-13T10:57:01.923+09:00  INFO 9324 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-13T10:57:02.058+09:00  INFO 9324 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@949d347
+2023-10-13T10:57:02.060+09:00  INFO 9324 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-13T10:57:02.083+09:00  WARN 9324 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL57Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-13T10:57:02.183+09:00  INFO 9324 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-13T10:57:02.550+09:00  INFO 9324 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-13T10:57:02.551+09:00  INFO 9324 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-13T10:57:02.787+09:00  WARN 9324 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-13T10:57:02.843+09:00  INFO 9324 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-10-13T10:57:02.914+09:00  INFO 9324 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5b132063, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b98c80c, org.springframework.security.web.context.SecurityContextHolderFilter@4505ec36, org.springframework.security.web.header.HeaderWriterFilter@7ecf4608, org.springframework.security.web.authentication.logout.LogoutFilter@27ea7c8f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@17e31657, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7b23aea2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2f143ea, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@a486851, org.springframework.security.web.access.ExceptionTranslationFilter@3f6fd33b, org.springframework.security.web.access.intercept.AuthorizationFilter@52984065]
+2023-10-13T10:57:03.070+09:00  INFO 9324 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-13T10:57:03.074+09:00  INFO 9324 --- [main] kr.co.sboard.SboardApplication           : Started SboardApplication in 2.352 seconds (process running for 2.595)
+2023-10-13T10:57:18.462+09:00  INFO 9324 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-13T10:57:18.463+09:00  INFO 9324 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-13T10:57:18.464+09:00  INFO 9324 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-10-13T10:57:22.551+09:00  INFO 9324 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 1
+2023-10-13T10:57:22.551+09:00  INFO 9324 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T10:57:22.551+09:00  INFO 9324 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO total : 0
+2023-10-13T10:57:22.551+09:00  INFO 9324 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO start : 1
+2023-10-13T10:57:22.551+09:00  INFO 9324 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO end : 0
+2023-10-13T10:57:22.551+09:00  INFO 9324 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO prev : false
+2023-10-13T10:57:22.551+09:00  INFO 9324 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO next : false
+2023-10-13T10:57:22.690+09:00  WARN 9324 --- [http-nio-8080-exec-8] n.n.u.t.e.ExpressionProcessor            : Fragment expression "/index.html" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
+2023-10-13T10:57:31.548+09:00  WARN 9324 --- [http-nio-8080-exec-9] org.apache.catalina.connector.Request    : Creating the temporary upload location [C:\Users\Java\AppData\Local\Temp\tomcat.8080.12390192397502327466\work\Tomcat\localhost\ROOT\src\main\resources\static\file] as it is required by the servlet [dispatcherServlet]
+2023-10-13T11:04:52.466+09:00  INFO 9324 --- [http-nio-8080-exec-9] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 1
+2023-10-13T11:04:52.466+09:00  INFO 9324 --- [http-nio-8080-exec-9] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T11:04:52.466+09:00  INFO 9324 --- [http-nio-8080-exec-9] k.c.s.c.article.ArticleController        : pageResponseDTO total : 0
+2023-10-13T11:04:52.466+09:00  INFO 9324 --- [http-nio-8080-exec-9] k.c.s.c.article.ArticleController        : pageResponseDTO start : 1
+2023-10-13T11:04:52.466+09:00  INFO 9324 --- [http-nio-8080-exec-9] k.c.s.c.article.ArticleController        : pageResponseDTO end : 0
+2023-10-13T11:04:52.466+09:00  INFO 9324 --- [http-nio-8080-exec-9] k.c.s.c.article.ArticleController        : pageResponseDTO prev : false
+2023-10-13T11:04:52.466+09:00  INFO 9324 --- [http-nio-8080-exec-9] k.c.s.c.article.ArticleController        : pageResponseDTO next : false
+2023-10-13T11:04:57.599+09:00  INFO 9324 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-13T11:04:57.600+09:00  INFO 9324 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-13T11:04:57.603+09:00  INFO 9324 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-13T11:04:59.130+09:00  INFO 11260 --- [main] kr.co.sboard.SboardApplication           : Starting SboardApplication using Java 17.0.8 with PID 11260 (C:\Users\Java\Desktop\Workspace\Spring\Sboard\build\classes\java\main started by Java in C:\Users\Java\Desktop\Workspace\Spring\Sboard)
+2023-10-13T11:04:59.131+09:00  INFO 11260 --- [main] kr.co.sboard.SboardApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-10-13T11:04:59.519+09:00  INFO 11260 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-13T11:04:59.554+09:00  INFO 11260 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 4 JPA repository interfaces.
+2023-10-13T11:04:59.612+09:00  WARN 11260 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[kr.co.sboard]' package. Please check your configuration.
+2023-10-13T11:04:59.841+09:00  INFO 11260 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-13T11:04:59.846+09:00  INFO 11260 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-13T11:04:59.846+09:00  INFO 11260 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-13T11:04:59.887+09:00  INFO 11260 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-13T11:04:59.887+09:00  INFO 11260 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 647 ms
+2023-10-13T11:04:59.959+09:00  INFO 11260 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-13T11:04:59.982+09:00  INFO 11260 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-13T11:04:59.983+09:00  INFO 11260 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-13T11:05:00.054+09:00  INFO 11260 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-13T11:05:00.122+09:00  INFO 11260 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-13T11:05:00.130+09:00  INFO 11260 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-13T11:05:00.264+09:00  INFO 11260 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@772cf46b
+2023-10-13T11:05:00.265+09:00  INFO 11260 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-13T11:05:00.289+09:00  WARN 11260 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL57Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-13T11:05:00.393+09:00  INFO 11260 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-13T11:05:00.778+09:00  INFO 11260 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-13T11:05:00.779+09:00  INFO 11260 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-13T11:05:01.011+09:00  WARN 11260 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-13T11:05:01.065+09:00  INFO 11260 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-10-13T11:05:01.138+09:00  INFO 11260 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6dd59886, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@65a7bc80, org.springframework.security.web.context.SecurityContextHolderFilter@32c114d9, org.springframework.security.web.header.HeaderWriterFilter@3f6fd33b, org.springframework.security.web.authentication.logout.LogoutFilter@34e7a627, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5bb7fc38, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4505ec36, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5562f297, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5b132063, org.springframework.security.web.access.ExceptionTranslationFilter@19ea65f4, org.springframework.security.web.access.intercept.AuthorizationFilter@21252bef]
+2023-10-13T11:05:01.306+09:00  INFO 11260 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-13T11:05:01.310+09:00  INFO 11260 --- [main] kr.co.sboard.SboardApplication           : Started SboardApplication in 2.391 seconds (process running for 2.651)
+2023-10-13T11:05:05.960+09:00  INFO 11260 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-13T11:05:05.960+09:00  INFO 11260 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-13T11:05:05.961+09:00  INFO 11260 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-10-13T11:05:09.823+09:00  INFO 11260 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 1
+2023-10-13T11:05:09.824+09:00  INFO 11260 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T11:05:09.824+09:00  INFO 11260 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO total : 0
+2023-10-13T11:05:09.824+09:00  INFO 11260 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO start : 1
+2023-10-13T11:05:09.824+09:00  INFO 11260 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO end : 0
+2023-10-13T11:05:09.824+09:00  INFO 11260 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO prev : false
+2023-10-13T11:05:09.824+09:00  INFO 11260 --- [http-nio-8080-exec-7] k.c.s.c.article.ArticleController        : pageResponseDTO next : false
+2023-10-13T11:05:09.961+09:00  WARN 11260 --- [http-nio-8080-exec-7] n.n.u.t.e.ExpressionProcessor            : Fragment expression "/index.html" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
+2023-10-13T11:05:13.274+09:00  INFO 11260 --- [http-nio-8080-exec-5] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 1
+2023-10-13T11:05:13.274+09:00  INFO 11260 --- [http-nio-8080-exec-5] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T11:05:13.274+09:00  INFO 11260 --- [http-nio-8080-exec-5] k.c.s.c.article.ArticleController        : pageResponseDTO total : 0
+2023-10-13T11:05:13.274+09:00  INFO 11260 --- [http-nio-8080-exec-5] k.c.s.c.article.ArticleController        : pageResponseDTO start : 1
+2023-10-13T11:05:13.274+09:00  INFO 11260 --- [http-nio-8080-exec-5] k.c.s.c.article.ArticleController        : pageResponseDTO end : 0
+2023-10-13T11:05:13.274+09:00  INFO 11260 --- [http-nio-8080-exec-5] k.c.s.c.article.ArticleController        : pageResponseDTO prev : false
+2023-10-13T11:05:13.274+09:00  INFO 11260 --- [http-nio-8080-exec-5] k.c.s.c.article.ArticleController        : pageResponseDTO next : false
+2023-10-13T11:07:46.573+09:00  INFO 2724 --- [main] kr.co.sboard.SboardApplication           : Starting SboardApplication using Java 17.0.8 with PID 2724 (C:\Users\Java\Desktop\Workspace\Spring\Sboard\build\classes\java\main started by Java in C:\Users\Java\Desktop\Workspace\Spring\Sboard)
+2023-10-13T11:07:46.574+09:00  INFO 2724 --- [main] kr.co.sboard.SboardApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-10-13T11:07:47.094+09:00  INFO 2724 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-13T11:07:47.136+09:00  INFO 2724 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 4 JPA repository interfaces.
+2023-10-13T11:07:47.221+09:00  WARN 2724 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[kr.co.sboard]' package. Please check your configuration.
+2023-10-13T11:09:04.264+09:00  INFO 11260 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-13T11:09:04.265+09:00  INFO 11260 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-13T11:09:04.270+09:00  INFO 11260 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-13T11:32:19.996+09:00  INFO 5372 --- [main] kr.co.sboard.SboardApplication           : Starting SboardApplication using Java 17.0.8 with PID 5372 (C:\Users\Java\Desktop\Workspace\Spring\Sboard\build\classes\java\main started by Java in C:\Users\Java\Desktop\Workspace\Spring\Sboard)
+2023-10-13T11:32:19.998+09:00  INFO 5372 --- [main] kr.co.sboard.SboardApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-10-13T11:32:20.502+09:00  INFO 5372 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-13T11:32:20.544+09:00  INFO 5372 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 4 JPA repository interfaces.
+2023-10-13T11:32:20.620+09:00  WARN 5372 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[kr.co.sboard]' package. Please check your configuration.
+2023-10-13T11:35:38.475+09:00  INFO 15424 --- [main] kr.co.sboard.SboardApplication           : Starting SboardApplication using Java 17.0.8 with PID 15424 (C:\Users\Java\Desktop\Workspace\Spring\Sboard\build\classes\java\main started by Java in C:\Users\Java\Desktop\Workspace\Spring\Sboard)
+2023-10-13T11:35:38.477+09:00  INFO 15424 --- [main] kr.co.sboard.SboardApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-10-13T11:35:38.997+09:00  INFO 15424 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-13T11:35:39.039+09:00  INFO 15424 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 4 JPA repository interfaces.
+2023-10-13T11:35:39.117+09:00  WARN 15424 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[kr.co.sboard]' package. Please check your configuration.
+2023-10-13T11:37:50.711+09:00  INFO 204 --- [main] kr.co.sboard.SboardApplication           : Starting SboardApplication using Java 17.0.8 with PID 204 (C:\Users\Java\Desktop\Workspace\Spring\Sboard\build\classes\java\main started by Java in C:\Users\Java\Desktop\Workspace\Spring\Sboard)
+2023-10-13T11:37:50.712+09:00  INFO 204 --- [main] kr.co.sboard.SboardApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-10-13T11:37:51.213+09:00  INFO 204 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-13T11:37:51.254+09:00  INFO 204 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 4 JPA repository interfaces.
+2023-10-13T11:37:51.327+09:00  WARN 204 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[kr.co.sboard]' package. Please check your configuration.
+2023-10-13T11:40:45.393+09:00  INFO 12700 --- [main] kr.co.sboard.SboardApplication           : Starting SboardApplication using Java 17.0.8 with PID 12700 (C:\Users\Java\Desktop\Workspace\Spring\Sboard\build\classes\java\main started by Java in C:\Users\Java\Desktop\Workspace\Spring\Sboard)
+2023-10-13T11:40:45.394+09:00  INFO 12700 --- [main] kr.co.sboard.SboardApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-10-13T11:40:45.939+09:00  INFO 12700 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-13T11:40:45.976+09:00  INFO 12700 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 4 JPA repository interfaces.
+2023-10-13T11:40:46.054+09:00  WARN 12700 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[kr.co.sboard]' package. Please check your configuration.
+2023-10-13T11:45:21.009+09:00  INFO 3180 --- [main] kr.co.sboard.SboardApplication           : Starting SboardApplication using Java 17.0.8 with PID 3180 (C:\Users\Java\Desktop\Workspace\Spring\Sboard\build\classes\java\main started by Java in C:\Users\Java\Desktop\Workspace\Spring\Sboard)
+2023-10-13T11:45:21.011+09:00  INFO 3180 --- [main] kr.co.sboard.SboardApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-10-13T11:45:21.545+09:00  INFO 3180 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-13T11:45:21.590+09:00  INFO 3180 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 4 JPA repository interfaces.
+2023-10-13T11:45:21.674+09:00  WARN 3180 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[kr.co.sboard]' package. Please check your configuration.
+2023-10-13T12:18:00.125+09:00  INFO 15732 --- [main] kr.co.sboard.SboardApplicationTests      : Starting SboardApplicationTests using Java 17.0.8 with PID 15732 (C:\Users\Java\Desktop\Workspace\Spring\Sboard\build\classes\java\test started by Java in C:\Users\Java\Desktop\Workspace\Spring\Sboard)
+2023-10-13T12:18:00.126+09:00  INFO 15732 --- [main] kr.co.sboard.SboardApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2023-10-13T12:18:00.611+09:00  INFO 15732 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-13T12:18:00.644+09:00  INFO 15732 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 4 JPA repository interfaces.
+2023-10-13T12:18:00.719+09:00  WARN 15732 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[kr.co.sboard]' package. Please check your configuration.
+2023-10-13T12:24:41.411+09:00  INFO 3136 --- [main] kr.co.sboard.SboardApplication           : Starting SboardApplication using Java 17.0.8 with PID 3136 (C:\Users\Java\Desktop\Workspace\Spring\Sboard\build\classes\java\main started by Java in C:\Users\Java\Desktop\Workspace\Spring\Sboard)
+2023-10-13T12:24:41.412+09:00  INFO 3136 --- [main] kr.co.sboard.SboardApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-10-13T12:24:41.862+09:00  INFO 3136 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-13T12:24:41.904+09:00  INFO 3136 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 4 JPA repository interfaces.
+2023-10-13T12:24:41.958+09:00  WARN 3136 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[kr.co.sboard]' package. Please check your configuration.
+2023-10-13T12:24:42.260+09:00  INFO 3136 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-13T12:24:42.266+09:00  INFO 3136 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-13T12:24:42.266+09:00  INFO 3136 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-13T12:24:42.313+09:00  INFO 3136 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-13T12:24:42.313+09:00  INFO 3136 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 776 ms
+2023-10-13T12:24:42.398+09:00  INFO 3136 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-13T12:24:42.428+09:00  INFO 3136 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-13T12:24:42.429+09:00  INFO 3136 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-13T12:24:42.512+09:00  INFO 3136 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-13T12:24:42.605+09:00  INFO 3136 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-13T12:24:42.615+09:00  INFO 3136 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-13T12:24:42.756+09:00  INFO 3136 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@30bd39d5
+2023-10-13T12:24:42.757+09:00  INFO 3136 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-13T12:24:42.781+09:00  WARN 3136 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL57Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-13T12:24:42.897+09:00  INFO 3136 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-13T12:24:43.305+09:00  INFO 3136 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-13T12:24:43.307+09:00  INFO 3136 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-13T12:24:43.560+09:00  WARN 3136 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-13T12:24:43.703+09:00  INFO 3136 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@52984065, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6dd59886, org.springframework.security.web.context.SecurityContextHolderFilter@7ecf4608, org.springframework.security.web.header.HeaderWriterFilter@3dfe2797, org.springframework.security.web.authentication.logout.LogoutFilter@22825762, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@34e7a627, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@73f6ffb1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3fecdd00, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@65a7bc80, org.springframework.security.web.access.ExceptionTranslationFilter@3be60847, org.springframework.security.web.access.intercept.AuthorizationFilter@e763080]
+2023-10-13T12:24:43.882+09:00  INFO 3136 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-13T12:24:43.886+09:00  INFO 3136 --- [main] kr.co.sboard.SboardApplication           : Started SboardApplication in 2.711 seconds (process running for 2.965)
+2023-10-13T12:24:50.564+09:00  INFO 3136 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-13T12:24:50.564+09:00  INFO 3136 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-13T12:24:50.565+09:00  INFO 3136 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-10-13T12:25:01.347+09:00  INFO 3136 --- [http-nio-8080-exec-6] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 1
+2023-10-13T12:25:01.347+09:00  INFO 3136 --- [http-nio-8080-exec-6] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T12:25:01.347+09:00  INFO 3136 --- [http-nio-8080-exec-6] k.c.s.c.article.ArticleController        : pageResponseDTO total : 0
+2023-10-13T12:25:01.347+09:00  INFO 3136 --- [http-nio-8080-exec-6] k.c.s.c.article.ArticleController        : pageResponseDTO start : 1
+2023-10-13T12:25:01.347+09:00  INFO 3136 --- [http-nio-8080-exec-6] k.c.s.c.article.ArticleController        : pageResponseDTO end : 0
+2023-10-13T12:25:01.347+09:00  INFO 3136 --- [http-nio-8080-exec-6] k.c.s.c.article.ArticleController        : pageResponseDTO prev : false
+2023-10-13T12:25:01.347+09:00  INFO 3136 --- [http-nio-8080-exec-6] k.c.s.c.article.ArticleController        : pageResponseDTO next : false
+2023-10-13T12:25:01.491+09:00  WARN 3136 --- [http-nio-8080-exec-6] n.n.u.t.e.ExpressionProcessor            : Fragment expression "/index.html" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
+2023-10-13T12:33:34.206+09:00  INFO 3136 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 1
+2023-10-13T12:33:34.206+09:00  INFO 3136 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T12:33:34.206+09:00  INFO 3136 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO total : 0
+2023-10-13T12:33:34.206+09:00  INFO 3136 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO start : 1
+2023-10-13T12:33:34.206+09:00  INFO 3136 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO end : 0
+2023-10-13T12:33:34.206+09:00  INFO 3136 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO prev : false
+2023-10-13T12:33:34.207+09:00  INFO 3136 --- [http-nio-8080-exec-8] k.c.s.c.article.ArticleController        : pageResponseDTO next : false
+2023-10-13T12:33:35.037+09:00  INFO 3136 --- [http-nio-8080-exec-9] k.c.s.c.article.ArticleController        : pageResponseDTO pg : 1
+2023-10-13T12:33:35.037+09:00  INFO 3136 --- [http-nio-8080-exec-9] k.c.s.c.article.ArticleController        : pageResponseDTO size : 10
+2023-10-13T12:33:35.037+09:00  INFO 3136 --- [http-nio-8080-exec-9] k.c.s.c.article.ArticleController        : pageResponseDTO total : 1
+2023-10-13T12:33:35.037+09:00  INFO 3136 --- [http-nio-8080-exec-9] k.c.s.c.article.ArticleController        : pageResponseDTO start : 1
+2023-10-13T12:33:35.037+09:00  INFO 3136 --- [http-nio-8080-exec-9] k.c.s.c.article.ArticleController        : pageResponseDTO end : 1
+2023-10-13T12:33:35.037+09:00  INFO 3136 --- [http-nio-8080-exec-9] k.c.s.c.article.ArticleController        : pageResponseDTO prev : false
+2023-10-13T12:33:35.037+09:00  INFO 3136 --- [http-nio-8080-exec-9] k.c.s.c.article.ArticleController        : pageResponseDTO next : false
+2023-10-13T12:33:55.180+09:00  WARN 3136 --- [http-nio-8080-exec-7] org.apache.catalina.connector.Request    : Creating the temporary upload location [C:\Users\Java\AppData\Local\Temp\tomcat.8080.11065882368520003483\work\Tomcat\localhost\ROOT\src\main\resources\static\file] as it is required by the servlet [dispatcherServlet]
+2023-10-13T15:41:56.119+09:00  INFO 3136 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-13T15:41:56.127+09:00  INFO 3136 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-13T15:41:56.131+09:00  INFO 3136 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
